@@ -218,3 +218,14 @@ __marimo__/
 
 # Streamlit
 .streamlit/secrets.toml
+
+
+# ==============================================================================
+# Energy Quant Trading Portfolio Custom Data Ignores
+# ==============================================================================
+# Large Raw Data Storage
+# Local downloads of hourly grid/weather data stay on your machine
+data/
+*.parquet
+*.jsonl
+
